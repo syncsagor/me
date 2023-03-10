@@ -58,4 +58,4 @@ function BackEnd() {
   )
 }
 
-export default BackEnd
+export default BackEnd;
