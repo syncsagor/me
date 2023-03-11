@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Skills from './components/Skills/Skills';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
+import Certification from './components/Certification/Certification';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Skills />
         <Services />
+       <Certification />
       </main>
     </Fragment>
   );

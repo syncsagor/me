@@ -9,21 +9,21 @@ function BackEnd() {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                <i class='bx bx-badge'></i>
+                <i className='bx bx-badge'></i>
                 <div>
                     <h3 className="skills__name">MongoDB</h3>
                     <span className='skills__level'>Basic</span>
                 </div>
                 </div>
                 <div className="skills__data">
-                <i class='bx bx-badge'></i>
+                <i className='bx bx-badge'></i>
                 <div>
                     <h3 className="skills__name">Node Js</h3>
                     <span className='skills__level'>Basic</span>
                 </div>
                 </div>
                 <div className="skills__data">
-                <i class='bx bx-badge'></i>
+                <i className='bx bx-badge'></i>
                 <div>
                     <h3 className="skills__name">Firebase</h3>
                     <span className='skills__level'>Basic</span>
@@ -32,21 +32,21 @@ function BackEnd() {
             </div>
             <div className="skills__group">
                 <div className="skills__data">
-                <i class='bx bx-badge'></i>
+                <i className='bx bx-badge'></i>
                 <div>
                     <h3 className="skills__name">PHP</h3>
                     <span className='skills__level'>Basic</span>
                 </div>
                 </div>
                 <div className="skills__data">
-                <i class='bx bx-badge'></i>
+                <i className='bx bx-badge'></i>
                 <div>
                     <h3 className="skills__name">MySQL</h3>
                     <span className='skills__level'>Basic</span>
                 </div>
                 </div>
                 <div className="skills__data">
-                <i class='bx bx-badge'></i>
+                <i className='bx bx-badge'></i>
                 <div>
                     <h3 className="skills__name">Express Js</h3>
                     <span className='skills__level'>Basic</span>

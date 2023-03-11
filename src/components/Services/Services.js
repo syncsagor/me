@@ -3,9 +3,8 @@ import './services.css';
 function Services() {
     const [showModal, setShowModal] = useState(0);
 
-    const onShowModal = index => {
-            setShowModal(index);
-    }
+    const onShowModal = index => setShowModal(index);
+    
   return (
     <div className='services section' id='services'>
          <h2 className="section__title">Services</h2>
