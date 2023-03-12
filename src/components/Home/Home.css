@@ -26,9 +26,8 @@
     margin-bottom: var(--mb-0-25);
 }
 .home__hand {
-    height: 38px;
-    width: 38px;
-    margin-left: .4rem;
+    font-size: calc(var(--big-font-size) - var(--h3-font-size));
+    margin-left: .5rem;
 }
 .home__subtitle {
     position: relative;
@@ -78,6 +77,12 @@
 .home__scroll {
     margin-left: 9.25rem;
     
+}
+.home__send {
+    color: var(--container-color);
+    margin-left: .4rem;
+    line-height: 1.4rem;
+
 }
 
 .wheel {

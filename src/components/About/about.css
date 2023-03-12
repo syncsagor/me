@@ -43,6 +43,11 @@
     margin-bottom: var(--mb-2-5);
 }
 
+.about__data-icon {
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    line-height: 1.4
+}
 
 /* =========BreakPoints========== */
 
