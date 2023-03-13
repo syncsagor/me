@@ -6,6 +6,8 @@ import Skills from './components/Skills/Skills';
 import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import Certification from './components/Certification/Certification';
+import Testimonials from './components/Testimonials/Testimonials';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Skills />
         <Services />
        <Certification />
+       <Testimonials />
       </main>
     </Fragment>
   );
