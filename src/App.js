@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import Certification from './components/Certification/Certification';
 import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Services />
        <Certification />
        <Testimonials />
+       <Contact />
       </main>
     </Fragment>
   );
