@@ -12,7 +12,7 @@ function Contact() {
   };
 
   return (
-    <section className="section contact" id="section">
+    <section className="section contact" id="contact">
          <h2 className="section__title">Get in touch</h2>
         <span className='section__subtitle'>Contact Me</span>
 
