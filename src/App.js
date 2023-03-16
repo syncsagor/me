@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import ScrollUp from './components/ScrolUp/ScrollUp';
+import Portfolio from './components/Portfolio/Portfolio';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Services />
        <Certification />
+       <Portfolio />
        <Testimonials />
        <Contact />
       </main>
