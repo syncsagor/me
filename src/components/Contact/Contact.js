@@ -1,7 +1,10 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import './contact.css'
+import './contact.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Contact() {
+    const notify = () => toast("Message submited!");
     const form = useRef();
 
   const sendEmail = (e) => {
@@ -68,8 +71,9 @@ function Contact() {
                         <label className='contact__form-tag'>Project</label>
                         <textarea name="project" className='contact__form-input' cols="30" rows="10" placeholder='Write your project'></textarea>
                     </div>
-                    <button href="#contact" className="button button--flex">Send Message
+                    <button onClick={notify} href="#contact" className="button button--flex">Send Message
         <i className='bx bxs-send home__send'></i> </button>
+        <ToastContainer />
                 </form>
             </div>
         </div>
